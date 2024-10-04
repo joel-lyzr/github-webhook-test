@@ -10,7 +10,7 @@ export default async function handler(
   res: NextApiResponse<Data>
 ) {
   const response = await fetch(
-    "https://webhooks.amplify.us-east-1.amazonaws.com/prod/webhooks?id=9b311be4-47eb-4923-8bc2-08f74b4aa497&token=c0uUSJgTcrJnGPpXmkmkYkzoDzyzHY3N0eQCbcNrY&operation=startbuild",
+    "https://webhooks.amplify.us-east-1.amazonaws.com/prod/webhooks?id=e450a7ef-856c-40ac-937f-f5940871efe8&token=jWvqh9cXIxNEcTsrZfF0OyYFQwtViNEZ4tjNIWiXi8&operation=startbuild",
     {
       method: "POST",
       headers: {
