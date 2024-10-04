@@ -2,7 +2,7 @@
 import type { NextApiRequest, NextApiResponse } from "next";
 
 type Data = {
-  data: any;
+  data: object;
 };
 
 export default function handler(
